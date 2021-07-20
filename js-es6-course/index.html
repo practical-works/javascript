@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ES6-JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="log">Press F12 to open the console.</h1>
+	<script>
+		const log = document.querySelector("#log");
+		const text = log.innerText;
+		let alt = 1;
+		setInterval(() => {
+			log.style.color = alt > 0 ? "white" : "silver";
+			log.style.textShadow = alt > 0 ? "0px 0px 10px white" : "0px 0px 10px silver";
+			alt = -alt;
+		}, 100);
+	</script>
+	<script type="module" src="main.js"></script>
+</body>
+</html>

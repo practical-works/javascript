@@ -1,0 +1,11 @@
+body {
+	font-family: "VL Gothic";
+	background-color: black;
+	color: white;
+}
+#log {
+	text-align: center;
+	margin: 20% 0%;
+	text-shadow: 0px 0px 10px white;
+	
+}
